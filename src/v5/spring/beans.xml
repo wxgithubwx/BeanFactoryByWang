@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="user1" class="v5.bean.User" />
+    <bean id="user2" class="v5.bean.User" />
+    <bean id="user3" class="v5.bean.User" />
+    <bean id="user4" class="v5.bean.User" />
+    <bean id="user5" class="v5.bean.User" />
+</beans>

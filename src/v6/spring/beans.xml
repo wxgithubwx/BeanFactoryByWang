@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="phone" class="v6.bean.Phone">
+        <property name="id" value="666"/>
+        <property name="name" value="小米"/>
+    </bean>
+    <bean id="user1" class="v6.bean.User">
+        <property name="id" value="112"/>
+        <property name="name" value="pmy"/>
+        <property name="phone" ref="phone"/>
+    </bean>
+    <bean id="user2" class="v6.bean.User" />
+    <bean id="user3" class="v6.bean.User" />
+    <bean id="user4" class="v6.bean.User" />
+    <bean id="user5" class="v6.bean.User" />
+</beans>
